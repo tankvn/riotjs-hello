@@ -46,6 +46,14 @@ Làm việc với `Riot.js` giúp tôi hiểu ra rằng ngay cả những tính 
 Riot.js 4 nhằm mục đích trở thành khung nhỏ nhất, đơn giản nhất và dễ dự đoán nhất cho các thành phần web. Nó được thiết kế để cung cấp cho bạn mọi thứ mà bạn mong muốn API các thành phần web gốc trông như thế nào. 
 
 
+### Riot Modal
+
+This a simple modal made with riot and [Animate.css](https://daneden.github.io/animate.css/).  
+This demo also demonstrates the use of [slots](https://riot.js.org/documentation/#slots).
+
+[Demo](https://riot.js.org/examples/plunker/?app=modal)
+
+
 ### Cheat Sheet
 album
 https://getbootstrap.com/docs/5.0/examples/album/
@@ -63,6 +71,7 @@ https://folio.webestica.com/elements-accordion.html
 - v3.13.2 - Nov 25, 2018
 - v2.6.9  - Feb 15, 2019
 - v1.0.4  - Sep 17, 2014
+
 
 ### Những trình duyệt nào được hỗ trợ?
 
