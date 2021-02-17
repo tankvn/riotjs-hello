@@ -33,6 +33,17 @@ Sample code:
 </todo>
 ```
 
+### Every revolution begins with a Riot.js
+
+Tôi bắt đầu sử dụng `Riot.js` vài năm trước và nó đã thay đổi phong cách phát triển ứng dụng web của tôi.
+
+Tôi đã rất mệt mỏi khi phải học mỗi ngày những khái niệm mới và những cách phức tạp để tạo ra những thành phần tầm thường luôn giống nhau (đàn accordion, lớp phủ, trường nhập tùy chỉnh…).
+
+Làm việc với `Riot.js` giúp tôi hiểu ra rằng ngay cả những tính năng phức tạp nhất cũng có thể đạt được với sự sang trọng và ít mã dựa vào sức mạnh của các thành phần web.
+
+
+
+
 ### Releases
 - v5.3.0  - Feb 13, 2021
 - v4.14.0 - Sep 01, 2020
