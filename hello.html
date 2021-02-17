@@ -1,9 +1,13 @@
-<!-- note that the tag name here matches the same place holder tag "hello" in my index page -->
-<hello>
-	<!-- Include your HTML first and use curly braces to interpolate values -->
-	<p>Hello { name }!</p>
-	<!-- Then write any script code you wish -->
-	<script>
-		this.name = "Jon"; // The riot community frowns upon using semi-colons. I'm with Douglas Crockford on using them always!
-	</script>
-</hello>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Riot App</title>
+</head>
+<body>
+	<div id="root"></div>
+	<!--script src="dist/bundle.js"></script-->
+	<script src="riot+compiler.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
