@@ -1,5 +1,12 @@
 # riotjs-hello
 
+### Một số tính năng
+
+- Riot.Js cho phép người dùng áp dụng các thẻ HTML tùy chỉnh trên tất cả các trang và ứng dụng web. Bạn cũng có thể sử dụng lại các thẻ đó.
+- Framework này tương tự như polymer và Reac.js. Tuy nhiên, so với hai framework kia, Riot.Js có tổ chức và nhỏ gọn hơn.
+- Framekwork này tập trung cao độ vào các chức năng vi mô cho phép bạn làm việc cá nhân với các ứng dụng khác nhau cùng một lúc.
+
+
 Riot lấy cảm hứng WebComponent từ React và Polymer, nhưng tinh gọn hơn rất nhiều. Thư viện này ra đời cuối năm 2013, sau React vài tháng. Hiện nay vẫn rất active. Hầu hết issues đều được giải quyết nhanh chóng.
 
 Riot cung cấp cho bạn custom tags, observable và routing. Custom tags cho phép tạo ra các components, observable giúp các components này giao tiếp với nhau, còn routing là để map URL vào component tương ứng. Chừng đó xem như đủ cho bạn làm bất cứ điều gì với web apps.
