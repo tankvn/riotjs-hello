@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--script src = "https://cdnjs.cloudflare.com/ajax/libs/riot/5.3.0/riot+compiler.min.js"></script-->
+		<script src = "https://cdn.jsdelivr.net/npm/riot@5/riot+compiler.min.js"></script>
+	</head>
+	<body>
+		<messageTag></messageTag>
+		<script>
+			var tagHtml = "<h1>Hello World!</h1>";
+			riot.tag("messageTag", tagHtml);
+			riot.mount("messageTag");
+		</script>
+	</body>
+</html>
