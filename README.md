@@ -83,3 +83,6 @@ https://folio.webestica.com/elements-accordion.html
 ### Những trình duyệt nào được hỗ trợ?
 
 Riot.js 4 hỗ trợ tất cả các trình duyệt hiện đại chính. Các trình duyệt như IE11 không được hỗ trợ: nếu bạn cần hỗ trợ các trình duyệt cũ hơn, bạn có thể cân nhắc sử dụng phiên bản Riot cũ hơn
+
+https://github.com/riot/riot  
+https://github.com/riot/examples  
