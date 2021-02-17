@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
 		<script src = "https://cdnjs.cloudflare.com/ajax/libs/riot/3.13.2/riot+compiler.min.js"></script>
+		<!--script src = "https://cdn.jsdelivr.net/npm/riot@5/riot+compiler.min.js"></script-->
 	</head>
 	<body>
 		<messageTag></messageTag>
@@ -10,15 +12,5 @@
 			riot.tag("messageTag", tagHtml);
 			riot.mount("messageTag");
 		</script>
-		
-		<!-- note that the tag name here matches the same place holder tag "hello" in my index page -->
-		<hello>
-			<!-- Include your HTML first and use curly braces to interpolate values -->
-			<p>Hello { name }!</p>
-			<!-- Then write any script code you wish -->
-			<script>
-				this.name = "Jon"; // The riot community frowns upon using semi-colons. I'm with Douglas Crockford on using them always!
-			</script>
-		</hello>
-   </body>
+	</body>
 </html>
