@@ -13,7 +13,7 @@
 				animation: '',
 			},
 			onMounted() {
-				this.update({ animation: 'pulse' })
+				this.update({ animation: 'fadeInDown' })
 
 				this.props.state.on('close', (callback) => {
 					this.update({ animation: 'zoomOut' })
