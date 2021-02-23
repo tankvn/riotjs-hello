@@ -23,10 +23,42 @@
 				</div>
 			</div>
 		</div>
-		<button class="md-trigger" data-modal="modal-1">Fade in &amp; Scale</button>
-		<div class="md-overlay"></div><!-- the overlay element -->
+
+		<div id="md-overlay" class="md-overlay"></div><!-- the overlay element -->
+
+		<button id="modal_1" class="md-trigger" data-modal="modal-1">Fade in &amp; Scale</button>
+		<button id="modal_2" class="md-trigger" data-modal="modal-2">Slide in (right)</button>
+		<button id="modal_3" class="md-trigger" data-modal="modal-3">Slide in (bottom)</button>
+		<button id="modal_4" class="md-trigger" data-modal="modal-4">Newspaper</button>
+		<button id="modal_5" class="md-trigger" data-modal="modal-5">Fall</button>
+		<button id="modal_6" class="md-trigger" data-modal="modal-6">Side Fall</button>
+		<button id="modal_7" class="md-trigger" data-modal="modal-7">Sticky Up</button>
+		<button id="modal_8" class="md-trigger" data-modal="modal-8">3D Flip (horizontal)</button>
+		<button id="modal_9" class="md-trigger" data-modal="modal-9">3D Flip (vertical)</button>
+		<button id="modal_10" class="md-trigger" data-modal="modal-10">3D Sign</button>
+		<button id="modal_11" class="md-trigger" data-modal="modal-11">Super Scaled</button>
+		<button id="modal_12" class="md-trigger" data-modal="modal-12">Just Me</button>
+		<button id="modal_13" class="md-trigger" data-modal="modal-13">3D Slit</button>
+		<button id="modal_14" class="md-trigger" data-modal="modal-14">3D Rotate Bottom</button>
+		<button id="modal_15" class="md-trigger" data-modal="modal-15">3D Rotate In Left</button>
+		<button id="modal_16" class="md-trigger" data-modal="modal-16">Blur</button>
 
 		<!--script src="js/modal.js"></script-->
-		<script src="js/modal-min.js"></script>
+		<!--script src="js/modal-min.js"></script-->
+		<script>
+			var modal = document.getElementById('modal-1'),
+			var button = document.getElementById('modal_1');
+			var overlay = document.getElementById('md-overlay');
+
+			function removeModalHandler() {
+				modal.classList.remove('md-show');
+			}
+
+			button.addEventListener( 'click', function( ev ) {
+				modal.classList.add('md-show');
+				overlay.removeEventListener( 'click', removeModalHandler );
+				overlay.addEventListener( 'click', removeModalHandler );
+			});
+		</script>
 	</body>
 </html>
