@@ -4,8 +4,9 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<title>Nifty Modal Window Effects</title>
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<script src="js/modernizr.custom.js"></script>
+		<!--link rel="stylesheet" type="text/css" href="css/component.css" /-->
+		<link rel="stylesheet" type="text/css" href="css/modal-effects.css" />
+		<!--script src="js/modernizr.custom.js"></script-->
 	</head>
 	<body>
 		<!-- All modals added here for the demo. You would of course just have one, dynamically created -->
@@ -275,6 +276,20 @@
 			let modal_16 = document.getElementById('modal-16');
 			let button_1 = document.getElementById('modal_1');
 			let button_2 = document.getElementById('modal_2');
+			let button_3 = document.getElementById('modal_3');
+			let button_4 = document.getElementById('modal_4');
+			let button_5 = document.getElementById('modal_5');
+			let button_6 = document.getElementById('modal_6');
+			let button_7 = document.getElementById('modal_7');
+			let button_8 = document.getElementById('modal_8');
+			let button_9 = document.getElementById('modal_9');
+			let button_10 = document.getElementById('modal_10');
+			let button_11 = document.getElementById('modal_11');
+			let button_12 = document.getElementById('modal_12');
+			let button_13 = document.getElementById('modal_13');
+			let button_14 = document.getElementById('modal_14');
+			let button_15 = document.getElementById('modal_15');
+			let button_16 = document.getElementById('modal_16');
 			let overlay = document.getElementById('md-overlay');
 
 			function removeModalHandler() {
@@ -294,7 +309,6 @@
 				modal_14.classList.remove('md-show');
 				modal_15.classList.remove('md-show');
 				modal_16.classList.remove('md-show');
-				modal_17.classList.remove('md-show');
 			}
 
 			button_1.addEventListener( 'click', function( ev ) {
@@ -304,6 +318,76 @@
 			});
 			button_2.addEventListener( 'click', function( ev ) {
 				modal_2.classList.add('md-show');
+				overlay.removeEventListener( 'click', removeModalHandler );
+				overlay.addEventListener( 'click', removeModalHandler );
+			});
+			button_3.addEventListener( 'click', function( ev ) {
+				modal_3.classList.add('md-show');
+				overlay.removeEventListener( 'click', removeModalHandler );
+				overlay.addEventListener( 'click', removeModalHandler );
+			});
+			button_4.addEventListener( 'click', function( ev ) {
+				modal_4.classList.add('md-show');
+				overlay.removeEventListener( 'click', removeModalHandler );
+				overlay.addEventListener( 'click', removeModalHandler );
+			});
+			button_5.addEventListener( 'click', function( ev ) {
+				modal_5.classList.add('md-show');
+				overlay.removeEventListener( 'click', removeModalHandler );
+				overlay.addEventListener( 'click', removeModalHandler );
+			});
+			button_6.addEventListener( 'click', function( ev ) {
+				modal_6.classList.add('md-show');
+				overlay.removeEventListener( 'click', removeModalHandler );
+				overlay.addEventListener( 'click', removeModalHandler );
+			});
+			button_7.addEventListener( 'click', function( ev ) {
+				modal_7.classList.add('md-show');
+				overlay.removeEventListener( 'click', removeModalHandler );
+				overlay.addEventListener( 'click', removeModalHandler );
+			});
+			button_8.addEventListener( 'click', function( ev ) {
+				modal_8.classList.add('md-show');
+				overlay.removeEventListener( 'click', removeModalHandler );
+				overlay.addEventListener( 'click', removeModalHandler );
+			});
+			button_9.addEventListener( 'click', function( ev ) {
+				modal_9.classList.add('md-show');
+				overlay.removeEventListener( 'click', removeModalHandler );
+				overlay.addEventListener( 'click', removeModalHandler );
+			});
+			button_10.addEventListener( 'click', function( ev ) {
+				modal_10.classList.add('md-show');
+				overlay.removeEventListener( 'click', removeModalHandler );
+				overlay.addEventListener( 'click', removeModalHandler );
+			});
+			button_11.addEventListener( 'click', function( ev ) {
+				modal_11.classList.add('md-show');
+				overlay.removeEventListener( 'click', removeModalHandler );
+				overlay.addEventListener( 'click', removeModalHandler );
+			});
+			button_12.addEventListener( 'click', function( ev ) {
+				modal_12.classList.add('md-show');
+				overlay.removeEventListener( 'click', removeModalHandler );
+				overlay.addEventListener( 'click', removeModalHandler );
+			});
+			button_13.addEventListener( 'click', function( ev ) {
+				modal_13.classList.add('md-show');
+				overlay.removeEventListener( 'click', removeModalHandler );
+				overlay.addEventListener( 'click', removeModalHandler );
+			});
+			button_14.addEventListener( 'click', function( ev ) {
+				modal_14.classList.add('md-show');
+				overlay.removeEventListener( 'click', removeModalHandler );
+				overlay.addEventListener( 'click', removeModalHandler );
+			});
+			button_15.addEventListener( 'click', function( ev ) {
+				modal_15.classList.add('md-show');
+				overlay.removeEventListener( 'click', removeModalHandler );
+				overlay.addEventListener( 'click', removeModalHandler );
+			});
+			button_16.addEventListener( 'click', function( ev ) {
+				modal_16.classList.add('md-show');
 				overlay.removeEventListener( 'click', removeModalHandler );
 				overlay.addEventListener( 'click', removeModalHandler );
 			});
