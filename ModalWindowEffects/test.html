@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Nifty Modal Window Effects</title>
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<!-- All modals added here for the demo. You would of course just have one, dynamically created -->
+		<div class="md-modal md-effect-1" id="modal-1">
+			<div class="md-content">
+				<h3>Modal Dialog</h3>
+				<div>
+					<p>This is a modal window. You can do the following things with it:</p>
+					<ul>
+						<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+						<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+						<li><strong>Close:</strong> click on the button below to close the modal.</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<button class="md-trigger" data-modal="modal-1">Fade in &amp; Scale</button>
+		<div class="md-overlay"></div><!-- the overlay element -->
+
+		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script src="js/modalEffects.js"></script>
+
+		<!-- for the blur effect -->
+		<!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+		<script>
+			// this is important for IEs
+			var polyfilter_scriptpath = '/js/';
+		</script>
+		<script src="js/cssParser.js"></script>
+		<script src="js/css-filters-polyfill.js"></script>
+	</body>
+</html>
