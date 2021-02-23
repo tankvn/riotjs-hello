@@ -46,10 +46,12 @@
 
 /* Content styles */
 .md-content {
-	color: #fff;
-	background: #e74c3c;
 	position: relative;
-	border-radius: 3px;
+	color: #2D3238;
+	background: #fff;
+	/*background: #e74c3c;*/
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: 6px;
 	margin: 0 auto;
 }
 
@@ -57,9 +59,9 @@
 	margin: 0;
 	padding: 0.4em;
 	text-align: center;
-	font-size: 2.4em;
-	font-weight: 300;
-	opacity: 0.8;
+	font-size: 1.25em;
+	/*font-weight: 500;
+	opacity: 0.8;*/
 	background: rgba(0,0,0,0.1);
 	border-radius: 3px 3px 0 0;
 }
@@ -67,8 +69,8 @@
 .md-content > div {
 	padding: 15px 40px 30px;
 	margin: 0;
-	font-weight: 300;
-	font-size: 1.15em;
+	/*font-weight: 300;
+	font-size: 1.15em;*/
 }
 
 .md-content > div p {
