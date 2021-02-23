@@ -147,6 +147,18 @@
 	transition: all 0.3s;
 }
 
+/* Effect 3: Slide from the top */
+.md-effect-3 .md-content {
+	-webkit-transform: translateY(-20%);
+	-moz-transform: translateY(-20%);
+	-ms-transform: translateY(-20%);
+	transform: translateY(-20%);
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
 .md-show.md-effect-3 .md-content {
 	-webkit-transform: translateY(0);
 	-moz-transform: translateY(0);
