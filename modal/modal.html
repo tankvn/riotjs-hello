@@ -20,6 +20,8 @@
 	<body>
 
 		<cool-modal></cool-modal>
+		
+		<button onclick="showModal()">Show</button>
 
 		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/riot@5/riot+compiler.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/@riotjs/observable@4/dist/observable.min.js"></script>
@@ -27,9 +29,18 @@
 		<script type="riot" src="./cool-modal.riot"></script>
 
 		<script type="text/javascript">
+			let modal;
+			function showModal() {
+				if (undefined == modal) {
+					modal = riot.mount('cool-modal')[0];
+				} else {
+					modal.state.modal.visible = true;
+					modal.update();
+				}
+			}
 			riot.compile()
 				.then(() => {
-					riot.mount('cool-modal')
+					//window.modal = riot.mount('cool-modal');
 				})
 		</script>
 
