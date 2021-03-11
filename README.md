@@ -40,6 +40,19 @@ Sample code:
 </todo>
 ```
 
+main.js
+```js
+import * as riot from 'riot'
+import App from './app.riot'
+
+const mountApp = riot.component(App)
+
+const app = mountApp(
+  document.getElementById('root'),
+  { message: 'Hello World' }
+)
+```
+
 ### Every revolution begins with a Riot.js
 
 Tôi bắt đầu sử dụng `Riot.js` vài năm trước và nó đã thay đổi phong cách phát triển ứng dụng web của tôi.
