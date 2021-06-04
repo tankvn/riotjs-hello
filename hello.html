@@ -5,10 +5,24 @@
 	<title>Riot App</title>
 </head>
 <body>
-	<div id="root"></div>
-	<!--script src="dist/bundle.js"></script-->
-	<!-- <script src="https://unpkg.com/riot@5/riot+compiler.min.js"></script> -->
-	<script src="riot+compiler.min.js"></script>
-	<script type="riot" src="main.js"></script>
+	<!-- <div id="root"></div> -->
+	<app></app>
+
+	<script src="https://unpkg.com/riot@5/riot+compiler.min.js"></script>
+	<!-- <script src="riot+compiler.min.js"></script> -->
+
+	<!-- riot tags -->
+	<script type="riot" src="app.riot"></script>
+	<!-- <script src="dist/bundle.js"></script> -->
+	<!-- <script type="riot" src="main.js"></script> -->
+	<script>
+		riot.compile().then(() => {
+			// mount an element with a specific id
+			//riot.mount('#root', { message: 'Hello World' })
+			//riot.mount(document.getElementById('root'), { message: 'Hello World' })
+
+			riot.mount('app', { message: 'Hello World' })
+		})
+	</script>
 </body>
 </html>
