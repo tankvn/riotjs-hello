@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Riot App</title>
+</head>
+<body>
+	<timer></timer>
+
+	<script src="https://unpkg.com/riot@5/riot+compiler.min.js"></script>
+	<!-- <script src="riot+compiler.min.js"></script> -->
+
+	<!-- riot tags -->
+	<!-- <script type="riot" src="main.js"></script> -->
+	<script type="riot" src="timer.riot"></script>
+
+	<!-- mount this app -->
+	<!--script src="dist/bundle.js"></script-->
+	<script>
+		riot.compile().then(() => {
+			riot.mount('timer', { start: 0 })
+		})
+	</script>
+</body>
+</html>
